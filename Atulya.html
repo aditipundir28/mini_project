@@ -1,0 +1,264 @@
+<html>
+<head>
+         <style>
+                  .bg-image
+                   {
+                     background-image: url("first.jpg");
+                     height: 100%; 
+                     background-position: center;
+                     background-repeat: no-repeat;
+                     background-size: cover;
+                   }
+
+                 .bg-text 
+                  {
+                    background-color: rgba(0,0,0, 0.4);
+                    color: white;
+                    font-weight: bold;
+                    border: 3px solid #f1f1f1;
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    z-index: 2;
+                    width: 70%;
+                    padding: 20px;
+                    text-align: center;
+                   }
+
+                 ul 
+                  {
+                    list-style-type: none;
+                    margin: 0;
+                    padding: 0;
+                    overflow: overflow;
+                    background-color: #333;
+                    opacity:.8;
+                    position: fixed;
+                    top: 0;
+                    width: 99%;
+                    z-index:3;
+                  }
+
+                 li
+                 {
+                   float:left;
+                 }
+ 
+                li a 
+                 {
+                   display: block;
+                   color: white;
+                   text-align: center;
+                   padding: 25px 69px;
+                   text-decoration: none;
+                   font-size:20px;
+                  }
+
+                li a.private
+                 {
+                   display: block;
+	margin-left: 24px;
+                   margin-right: 10px;
+                   color: white;
+                   text-align: center;
+                   padding: 25px 73px;
+                   text-decoration: none;
+                  }
+
+                li a:hover
+                 {
+                   background-color: #111;
+                  }
+
+                li a.gift:hover
+                 {
+                   background-color: #111;		
+                 } 
+
+              .dropdown-content 
+                 {
+	display: none;
+                   position: absolute;
+                   background-color: #333;
+                   box-shadow: 0px 8px 16px;
+	z-index: 5;
+                   width: 185px;
+	height: 95px;
+	overflow: auto;
+	margin-left:0px;
+                  }
+
+               .dropdown-content a 
+                  {
+                    color: black;
+	 padding: 12px 10px;
+	 text-decoration: none;
+                    display: block;
+	 color: white;
+	}
+
+                .dropdown-content a:hover 
+	{
+	  background-color: #111;
+	}
+
+               .dropdown:hover .dropdown-content 
+                  {
+                    display:block;
+                  } 
+	  
+                 h2
+                  {
+                    text-align:center;
+                    font-family:Matura MT Script Capitals; 
+                    font-size:60px;
+                    color:white;
+                   }
+
+                 h3
+                   {
+                     font-size:40px;
+                     text-align:center;
+                     font-family:Baskerville Old Face;
+                     padding-bottom:70px;
+                     color:white;
+                   }
+
+                 p
+                  {
+                    font-size:25px;
+                    font-family:Goudy Old Style;
+                    text-align:center;
+                    font-weight:bold;
+                  }
+
+                h4
+                 {
+                   font-size:30px;
+                   font-family:Stencil;
+                   text-align:center;
+                 }
+
+               #b2
+                {
+                  background-color:#000000; 
+                  height:20%;
+                  width:100%;
+                  text-align:center;
+                  font-family:Castellar;
+                  font-size:50px;
+                  color:white;
+                 }
+
+              .menu
+                {
+                  width:400px;
+                  height:300px;
+                }
+
+              #b3
+               { 
+                 text-align:center;
+                 height:60%;
+                 width:100%;
+               }
+
+             .last 
+               {
+                 position: relative;
+                 width: 100%;
+                 float: left;
+               }
+
+              #x
+               {
+                 width:100%;
+                 height:100%;
+                 opacity:0.4;
+               }
+
+             .text 
+              {
+                position: absolute;
+                top: 100px;
+                left: 500px;
+              }
+
+              #g
+              {
+                box-shadow: 0px 2px 4px rgb(0,0,0);
+              }
+        </style>                 
+</head>
+        <body>
+                  <div class="bg-image"></div>
+                         <ul>
+                                <li><a class="normal" href="gallery.html">Gallery</a></li>
+                                <li class="dropdown">
+	             <a class="gift" href="#b2">Menu</a>
+	             <div class = "dropdown-content">
+	             <a href="dinein.html">Dine In</a>
+	             <a href="behome.html">Be Home</a>
+                                </div>
+                                </li>
+                                <li><a href="feedback.html">Feedback</a></li>
+                                <li><a href="private.html">Private Dining</a></li>
+                                <li><a href="gift.html">Gift Cards</a></li>
+                                <li><a href="contact.html">Contacts</a></li>
+                                <li><a href="about.html">About us</a></li>
+                         </ul>
+                   <div class="bg-text">
+                               <h2>Atulya Restaurant</h2>
+                               <h3>Nothing brings people together like good food.</h3>
+                   </div>
+          <br><img src="in.jpg" width="372" height="300">&nbsp<img src="out.jpg" width="372" height="300">&nbsp<img src="on.jpg" width="372"height="300">&nbsp<img src="n.jpg" width="372" height="300">
+          <p> 
+                Atulya has received numerous appreciation for it’s unique decor, traditional Indian preparations and reliable Indian food take out & delivery and catering                                service. Commercial Drive is that neighborhood, you know, the one where you feel as though you live there even if you don’t. Atulya is just like the Drive, it’s your                 place to unwind and decompress...
+          </p>
+                              <h4>Experience the true taste of tradition.</h4>
+                   <div id="b2">
+                      <br>
+                            <p1>Menu</p1>
+                     </div>
+                  <div id="b3">
+                        <br><br><br><br>
+                                 <a href="dinein.html"><img class="menu" alt="Dine In"src="dine.jpg"></a>
+                                 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                                 <a href="behome.html"><img class="menu" alt="Be Home" src="home.jpg"></a>
+                  </div>
+                 <div class="last">
+                                 <img id="x"  src="43.jpg">
+                 <div class="text">
+                          <center>
+                                          <p1 style="font-size:20px;font-family:Bradley Hand ITC;font-weight:bold;">
+                                           Atulya Opening Hours:
+                                           <br> <br> 
+                                           Dinner: Everyday from 5:00 PM to 10:30 PM
+                                           <br> <br> 
+                                           Last Seating/Takeaway/Home Delivery: 9:15PM,
+                                           <br> <br>
+                                           Door closes at 10:30-45 PM
+                                           <br> <br>
+                                           Lunch: Monday to Friday 11:30 AM – 1:30 PM
+                                           <br> <br> 
+                                           Email: info@atulyaindianrestaurant.com
+                                           <br> <br> 
+                                           <a href="https://twitter.com/?lang=en-in"><img id="g" src="twitter.png" width="45px" height="45px"></a>
+                                           &nbsp&nbsp
+                                           <a href="https://www.facebook.com/"><img id="g" src="facebook.jfif" width="45px" height="45px"></a>
+                                           &nbsp&nbsp
+                                           <a href="https://www.instagram.com/?hl=en"><img id="g" src="insta.jfif" width="45px" height="45px"></a>
+                                           &nbsp&nbsp
+                                           <br> <br> 
+                                           Atulya Restaurant, 1128 Commercial Place, Connought Place,
+                                           <br> <br>
+                                           New Delhi,111001
+                                           <br> <br> 
+                                           Contact Us: 121-4567893, +91-7894561378
+                                           </p1>
+                          </center> 
+                 </div>
+                 </div>
+</body>
+</html>

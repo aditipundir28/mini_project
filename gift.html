@@ -1,0 +1,235 @@
+<html>
+  <head>
+    <style>
+.body
+             {
+                Width:100%;
+               height:148%;
+              }
+#back
+{
+width:100%;
+height:100%; 
+}
+.form
+{
+position:absolute;
+left:40px;
+width:90%;
+top:0;
+}
+           ul 
+                {
+                   list-style-type: none;
+                   margin: 0;
+                   padding: 0;
+                   overflow: overflow;
+                   background-color: #333;
+                    opacity:.8;
+                   position: fixed;
+                   top: 0;
+                   width: 99%;
+                   z-index: 3;
+                 }
+              li
+              {
+               float:left;
+               }
+             li a 
+              {
+               display: block;
+               color: white;
+               text-align: center;
+               padding: 25px 69px;
+               text-decoration: none;
+               font-size:20px;
+              }
+                li a.private
+              {
+               display: block;
+	       margin-left: 24px;
+	       margin-right: 10px;
+               color: white;
+               text-align: center;
+               padding: 25px 73px;
+               text-decoration: none;
+               }
+
+               li a:hover
+              {
+               background-color: #111;
+               }  
+
+	       li a.gift:hover
+              {
+               background-color: #111;		
+               } 
+
+
+		.dropdown-content 
+		{
+		  display: none;
+		  position: absolute;
+		  background-color: #333;
+		  box-shadow: 0px 8px 16px;
+		  z-index: 5;
+		  width: 185px;
+		  height: 95px;
+		  overflow: auto;
+		  margin-left:0px;
+		}
+
+		.dropdown-content a 
+		{
+		  color: black;
+		  padding: 12px 10px;
+		  text-decoration: none;
+		  display: block;
+		  color: white;
+		}
+
+		.dropdown-content a:hover 
+		{
+		  background-color: #111;
+		}
+
+		.dropdown:hover .dropdown-content {display:block;} 
+#mid  
+{
+  margin-top: 1%;
+  margin-left: 25%;
+   width: 50%;
+  height: 70%;
+  padding: 3px 15px; 
+}
+
+input:not([type=submit])
+{
+  display: inline-block;
+  width: 100%;
+  background-color: #f1f1f1;
+  padding: 15px;
+  border: none;
+  margin: 10px 0px;
+}
+input[type=submit] 
+{
+  display: inline-block;
+  background-color:#333 ;
+  width: 100%;
+  margin: 10px 0px;
+  border: none;
+  padding: 25px;
+  cursor: pointer;
+  color: white;
+}
+ .last {
+		position: relative;
+		width: 100%;
+		float: left;
+		}
+
+            #x
+           {
+           width:100%;
+           height:100%;
+           opacity:0.4;
+           }
+
+	   .text 
+	   {
+	   position: absolute;
+	   top: 100px;
+	   left: 500px;
+	   }
+              #g
+                  {
+                   box-shadow: 0px 2px 4px rgb(0,0,0);
+                  }
+	</style>
+  </head>
+  
+<body >
+  <div class="body">
+        <img src="48.jpg" id="back">
+  <ul>
+          <li><a href="atulya.html">Home</a></li>
+                     <li class="dropdown">
+	  <a class="gift" href="#">Menu</a>
+	  <div class = "dropdown-content">
+	  <a href="dinein.html">Dine In</a>
+	  <a href="behome.html">Be Home</a>
+	  </div>
+           </li>
+          <li><a href="gallery.html">Gallery</a></li>
+         <li><a href="feedback.html">Feedback</a></li>
+          <li><a href="private.html">Private Dining</a></li>
+          <li><a href="contact.html">Contacts</a></li>
+           <li><a href="about.html">About Us</a></li>
+          </ul>
+ <form class="form" action="card.html">
+    <div id="mid">
+     <br><br><br>
+      <h1>Restaurant Gift Cards</h1><br>
+      After purchasing a digital gift card from us, you or your recipient will receive an email with a unique code. After dining, show us your code printed out or on your mobile phone to redeem. Best part—they never expire!<br><br><hr>
+    Select Amount:<br>
+     <input type = "number" placeholder = "Select Amount" value="Rs.500"
+       min="500" max="5000"id="a1" required>
+    <br>
+     Recipient's Name<br>
+     <input type = "text" placeholder = "Recipient's Name" id="a1" required>
+     <br>
+     Recipient's Email:<br>
+     <input type = "text" placeholder = "Recipient's Email" id="a1" required>
+     <br>
+     Send Immediately:<br>
+     <input type ="text" placeholder="MM/DD/YYYY" id="a1" required>
+     <table>
+              <tr>
+                     <td><input type="radio" name="r25" value="g"></td>
+                     <td>Email the gift to me so I can print it and give in-person.</td>
+              </tr>
+     </table>
+     <br>
+     <input type = "text" placeholder = "Your Name" id="a1" required>
+     <br>
+      <input type = "text" placeholder = "Your Email" id="a1" required>
+     <br>
+     <input type = "text" placeholder = "Your Message" id="a1" required>
+    <br>
+      <input type = "Submit" value="Add to Cart">
+    </div>
+  </form>
+</div>
+     <div class="last">
+          <img id="x"  src="43.jpg">
+        <div class="text">
+<center>
+<p1 style="font-size:20px;font-family:Bradley Hand ITC;font-weight:bold;">
+     Atulya Opening Hours:
+       <br> <br> 
+    Dinner: Everyday from 5:00 PM to 10:30 PM
+       <br> <br> 
+    Last Seating/Takeaway/Home Delivery: 9:15PM,
+       <br> <br>
+    Door closes at 10:30-45 PM
+       <br> <br>
+    Lunch: Monday to Friday 11:30 AM – 1:30 PM
+       <br> <br> 
+    Email: info@atulyaindianrestaurant.com
+       <br> <br> 
+&nbsp&nbsp&nbsp<a href="https://twitter.com/?lang=en-in"><img id="g" src="twitter.png" width="45px" height="45px"></a>&nbsp&nbsp
+<a href="https://www.facebook.com/"><img id="g" src="facebook.jfif" width="45px" height="45px"></a>&nbsp&nbsp
+<a href="https://www.instagram.com/?hl=en"><img id="g" src="insta.jfif" width="45px" height="45px"></a>&nbsp&nbsp
+      <br> <br> 
+    Atulya Restaurant, 1128 Commercial Place, Connought Place,
+       <br> <br>
+    New Delhi,111001
+     <br> <br> 
+    Contact Us: 121-4567893, +91-7894561378
+</p1>
+</center> 
+    </div>
+     </div>
+</body>
+</html>

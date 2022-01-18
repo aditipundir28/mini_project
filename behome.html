@@ -1,0 +1,549 @@
+<html>
+<head>
+             <style>
+            .bg-image
+            {
+             background-image: url("fourth.jpg");
+             height: 100%; 
+              background-position: center;
+                   background-repeat: no-repeat;
+                  background-size: cover;
+                }
+            .bg-text 
+            {
+                background-color: rgba(0,0,0, 0.7);
+                color: white;
+                 font-weight: bold;
+               border: 3px solid #f1f1f1;
+               position: absolute;
+                top: 50%;
+               left: 50%;
+                   transform: translate(-50%, -50%);
+                    z-index: 2;
+                   width: 80%;
+             padding: 20px;
+            text-align: center;
+                }
+           ul 
+                {
+                   list-style-type: none;
+                   margin: 0;
+                   padding: 0;
+                   overflow: overflow;
+                   background-color: #333;
+                    opacity:.8;
+                   position: fixed;
+                   top: 0;
+                   width: 99%;
+                   z-index: 3;
+                 }
+              li
+              {
+               float:left;
+               }
+             li a 
+              {
+               display: block;
+               color: white;
+               text-align: center;
+               padding: 25px 72px;
+               text-decoration: none;
+               font-size:20px;
+              }
+                li a.private
+              {
+               display: block;
+	       margin-left: 24px;
+	       margin-right: 10px;
+               color: white;
+               text-align: center;
+               padding: 25px 73px;
+               text-decoration: none;
+               }
+
+               li a:hover
+              {
+               background-color: #111;
+               }  
+
+	       li a.gift:hover
+              {
+               background-color: #111;		
+               } 
+
+
+		.dropdown-content 
+		{
+		  display: none;
+		  position: absolute;
+		  background-color: #333;
+		  box-shadow: 0px 8px 16px;
+		  z-index: 5;
+		  width: 190px;
+		  height: 95px;
+		  overflow: auto;
+		  margin-left:0px;
+		}
+
+		.dropdown-content a 
+		{
+		  color: black;
+		  padding: 12px 10px;
+		  text-decoration: none;
+		  display: block;
+		  color: white;
+		}
+
+		.dropdown-content a:hover 
+		{
+		  background-color: #111;
+		}
+
+		.dropdown:hover .dropdown-content {display:block;} 
+                #cuisines
+             {
+             width:100%;
+             height:20%;
+            text-align:center;
+             }
+               .starter
+            {
+            float:left;
+            width:40%;
+            height:54%;
+	    position: relative;
+            }
+
+                .image
+             {
+	     position: relative;
+             float:left;
+             width:60%;
+             height:54%;
+             background-color:#FFFAFA;
+             }
+
+	      .text  
+	    {
+	    position: absolute;
+	    top: 0px;
+	    left: 5%;
+	    }
+
+            #z
+           {
+           width:100%;
+           height:100%;
+           opacity:0.3;
+           }
+           .main
+            {
+            float:left;
+            width:40%;
+            height:63%;
+	    position: relative;
+            }
+            
+           .img
+             {
+	     position: relative;
+             float:left;
+             width:60%;
+             height:63%;
+             background-color:#FFFAFA;
+             }
+           .txt  
+	    {
+	    position: absolute;
+	    top: -10px;
+	    left: 5%;
+	    }
+            #y
+           {
+           width:100%;
+           height:100%;
+           opacity:0.3;
+           }
+            .dessert
+            {
+            float:left;
+            width:40%;
+            height:60%;
+	    position: relative;
+            }
+           .im
+             {
+	     position: relative;
+             float:left;
+             width:60%;
+             height:60%;
+             background-color:#FFFAFA;
+             }
+           .tx  
+	    {
+	    position: absolute;
+	    top: 0px;
+	    left: 5%;
+	    }
+            #x
+           {
+           width:100%;
+           height:100%;
+           opacity:0.3;
+           }
+            .soups
+            {
+            float:left;
+            width:40%;
+            height:50%;
+	    position: relative;
+            }
+           .light
+             {
+	     position: relative;
+             float:left;
+             width:60%;
+             height:50%;
+             background-color:#FFFAFA;
+             }
+           .t
+	    {
+	    position: absolute;
+	    top: 0px;
+	    left: 5%;
+	    }
+            #w
+           {
+           width:100%;
+           height:100%;
+           opacity:0.3;
+           }
+          .rice
+            {
+            float:left;
+            width:40%;
+            height:50%;
+	    position: relative;
+            }
+           .fry
+             {
+	     position: relative;
+             float:left;
+             width:60%;
+             height:50%;
+             background-color:#FFFAFA;
+             }
+           .xt
+	    {
+	    position: absolute;
+	    top: 0px;
+	    left: 5%;
+	    }
+            #v
+           {
+           width:100%;
+           height:100%;
+           opacity:0.3;
+           }
+        .drinks
+            {
+            float:left;
+            width:40%;
+            height:50%;
+	    position: relative;
+            }
+           .cool
+             {
+	     position: relative;
+             float:left;
+             width:60%;
+             height:50%;
+             background-color:#FFFAFA;
+             }
+           .tt
+	    {
+	    position: absolute;
+	    top: 0px;
+	    left: 5%;
+	    }
+            #u
+           {
+           width:100%;
+           height:100%;
+           opacity:0.3;
+           }
+           .last {
+		position: relative;
+		width: 100%;
+		float: left;
+		}
+
+            #a
+           {
+           width:100%;
+           height:100%;
+           opacity:0.4;
+           }
+
+	   .ty 
+	   {
+	   position: absolute;
+	   top: 100px;
+	   left: 500px;
+	   }
+            
+                     #g
+                  {
+                   box-shadow: 0px 2px 4px rgb(0,0,0);
+                  }
+             </style>
+</head>
+<body>
+         
+           <div class="bg-image"></div>
+          <ul>
+          <li><a href="Atulya.html">Home</a></li>
+                     <li class="dropdown">
+	  <a class="gift" href="#">Menu</a>
+	  <div class = "dropdown-content">
+	  <a href="dinein.html">Dine In</a>
+	  <a href="behome.html">Be Home</a>
+	  </div>
+           </li>
+          <li><a href="feedback.html">Feedback</a></li>
+          <li><a href="order.html">Order Now</a></li>
+          <li><a href="gift.html">Gift Cards</a></li>
+          <li><a href="contact.html">Contacts</a></li>
+          <li><a href="about.html">About Us</a></li>
+          </ul>
+                    <div class="bg-text">
+                              <h2>ATULYA MENU</h2>
+                                             <h1 style="font-size:60px;font-family:Baskerville Old Face;">BE HOME</h1>
+                              <p style="font-size:20px;">It's so good to be home,having your favourite meal.</p>
+           </div>
+           <div id="cuisines">
+         <h2 style="font-size:30px;font-family:Goudy Stout;">INDIAN CUISINES</h2>
+         <p1  style="font-size:20px;font-family:Bradley Hand ITC;font-weight:bold;">Indian cuisine consists of a variety of regional and traditional cuisines native to the Indian subcontinent. Given the diversity in soil, climate, culture, ethnic groups, and occupations, these cuisines vary substantially and use locally available spices, herbs, vegetables, and fruits.</p1>
+          </div>
+  <div class="starter">
+                    <img id="z" alt="m"src="m.jpg" >
+			
+		<div class="text">
+          <center> <h3 style="font-size:30px;font-family:Cooper;">STARTER</h3></center>
+          
+				
+				<ol>
+                                  <li>Microwave Paneer Tikka</li>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspRs.200
+                                  <br>
+                                   <h4>A microwave to prepare this stellar dish of microwave paneer tikka.</h4>
+                                  <br>
+                                  <li>Samosa</li>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspRs.150
+                                  <br>
+                                  <h4>Be it rainy day or tea break,samosa seems like a perfect snack of all time.<h4>
+                                  <br>
+                                  <li>Kakori Kebabs</li>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspRs.400
+                                  <br>
+                                  <h4>The ultimate king of Kebabs, these kebabs were originated in Lucknow,Uttar Pradesh</h4>
+                                  
+                </ol>
+	</div>
+	</div>
+         <div class="image">
+            <marquee behavior = "scroll" direction = "left"><img src="87.jpg" width=350px height=384px><img src="54.jpg" width=350px height=384px><img src="94.jpg" width=350px height=384px><img src="127.jpg" width=350px height=384px><img src="61.jpg" width=350px height=384px><img src="90.jpg" width=350px height=384px></marquee>
+       </div>
+
+
+
+                <div class="img">
+<marquee behavior = "scroll" direction = "right"><img src="111.jpg" width=450px height=450px><img src="123.jpg" width=450px height=450px><img src="37.jpg" width=450px height=450px><img src="106.jpg" width=450px height=450px></marquee>
+         </div>
+        <div class="main">
+                    <img id="y" alt="o"src="o.jpg" >
+			
+		<div class="txt">
+          <center> <h3 style="font-size:30px;font-family:Cooper;">Main Course</h3></center>
+          
+				
+				<ol>
+                                 <li>Palak Paneer</li>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspRs.200
+                                  <br>
+                                   <h4>Palak paneer is a vegetarian dish originating from the Indian subcontinent, consisting of paneer in a thick paste made from puréed spinach and seasoned with ginger, garlic, garam masala, and other spices.</h4>
+                                  <br>
+<li>Dal Makhni</li>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspRs.250
+                                   <br>
+                                  <h4>Dal makhani or dal makhni is a dish originating from the Punjab region of the Indian subcontinent. The primary ingredients are whole black lentils, red kidney beans, butter and cream. </h4>
+                                   <br>
+                                  <li>Masala Dosa</li>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspRs.400
+                                  <br>
+                                  <h4>Masala dosa or masale dose or masaldosa is a variation of the popular South Indian food dosa, which has its origins in Tuluva Mangalorean cuisine of Karnataka.</h4>
+                </ol>
+	</div>
+	</div>
+
+
+
+ <div class="dessert">
+                    <img id="x" alt="63"src="63.jpg" >
+			
+		<div class="tx">
+          <center> <h3 style="font-size:30px;font-family:Cooper;">Desserts</h3></center>
+          
+				
+				<ol>
+                                  <li>Gulab Jamun</li>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspRs.100
+                                  <br>
+                                   <h4>Gulab jamun is a dessert based on milk solids that are kneaded into a dough, shaped into balls, and deep-fried in ghee.</h4>
+                                  <br>
+<li>Ras Malai</li>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspRs.200
+                                   <br>
+                                  <h4>Ras malai is a popular Indian dessert consisting of white cream, sugar, milk, and cardamom-flavored paneer cheese known as chhana.</h4>
+                                   <br>
+                                  <li>Kulfi</li>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspRs.100
+                                  <br>
+                                  <h4>Kulfi is a traditional Indian ice cream made with slowly simmered whole milk. Although the long-simmering process results in a loss of volume, it makes up for it with a delicious, nutty, caramelized flavor.</h4>
+                                   <br>
+                                  
+                </ol>
+	</div>
+	</div>
+         <div class="im">
+          
+    <marquee behavior = "scroll" direction = "left"><img src="79.jpg" width=380px height=426px><img src="89.jpg" width=380px height=426px><img src="21.jpg" width=380px height=426px><img src="118.jpg" width=380px height=426px><img src="109.jpg" width=380px height=426px><img src="30.jpg" width=380px height=426px></marquee>
+         </div>
+       
+
+
+ <div class="light">
+            <marquee behavior = "scroll" direction = "right"><img src="13.jpg" width=350px height=356px><img src="14.jpg" width=350px height=356px><img src="15.jpg" width=350px height=356px><img src="16.jpg" width=350px height=356px><img src="17.jpg" width=350px height=356px><img src="18.jpg" width=350px height=356px></marquee>
+         </div>
+        <div class="soups">
+                    <img id="w" alt="q"src="q.jpg" >
+			
+		<div class="t">
+          <center> <h3 style="font-size:30px;font-family:Cooper;">Soups</h3></center>
+          
+				
+				<ol>
+                                 <li>Manchow Soup</li>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspRs.200
+                                  <br>
+                                  <br>
+                                  <li>Tomato Soup</li>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspRs.150
+                                  <br>
+                                  <br>
+<li>Mixed Vegetable Clear Soup</li>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspRs.250
+                                   <br>
+                                   <br>
+                                  <li>Bottle Gourd and onion soup</li>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspRs.400
+                                  <br>
+                                 <br>
+                                  <li>Lemon and Coriender Soup</li>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspRs.100
+                                  <br>
+                                   <br>
+                                  <li>Corn Soup</li>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspRs.200
+                                 
+                                  
+                </ol>
+	</div>
+	</div>
+
+
+
+<div class="rice">
+                    <img id="v" alt="s"src="s.jpg" >
+			
+		<div class="xt">
+          <center> <h3 style="font-size:30px;font-family:Cooper;">Rice</h3></center>
+          
+				
+				<ol>
+                                 <li>Kashmiri Pulaw</li>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspRs.200
+                                  <br>
+                                  <br>
+                                  <li>Thai Pineapple Rice</li>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspRs.250
+                                  <br>
+                                  <br>
+<li>Vegetable Biryani</li>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspRs.350
+                                   <br>
+                                   <br>
+                                  <li>Chicken Biryani</li>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspRs.400
+                                  <br>
+                                 <br>
+                                  <li>Mutton Biryani</li>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspRs.350
+                                  <br>
+                                   <br>
+                                  <li>Lemon Rice</li>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspRs.200
+                                 
+                                  
+                </ol>
+	</div>
+	</div>
+ <div class="fry">
+            <marquee behavior = "scroll" direction = "left"><img src="91.jpg" width=350px height=355px><img src="103.jpg" width=350px height=355px><img src="9.jpg" width=350px height=355px><img src="126.jpg" width=350px height=355px><img src="131.jpg" width=350px height=355px><img src="100.jpg" width=350px height=355px></marquee>
+         </div>
+
+
+
+
+<div class="cool">
+            <marquee behavior = "scroll" direction = "right"><img src="114.jpg" width=350px height=356px><img src="125.jpg" width=350px height=356px><img src="116.jpg" width=350px height=356px><img src="107.jpg" width=350px height=356px><img src="101.jpg" width=350px height=356px><img src="99.jpg" width=350px height=356px></marquee>
+         </div>
+        <div class="Drinks">
+                    <img id="u" alt="r"src="r.jpg" >
+			
+		<div class="tt">
+          <center> <h3 style="font-size:30px;font-family:Cooper;">Drinks</h3></center>
+          
+				
+				<ol>
+                                 <li>Thandai</li>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspRs.100
+                                  <br>
+                                  <br>
+                                  <li>Lassi</li>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspRs.150
+                                  <br>
+                                  <br>
+<li>Jal Jeera</li>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspRs.150
+                                   <br>
+                                   <br>
+                                  <li>Masala Chai</li>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspRs.100
+                                  <br>
+                                 <br>
+                                  <li> Aam Panna</li>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspRs.100
+                                  <br>
+                                   <br>
+                                  <li>Falooda</li>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspRs.100
+                                 
+                                  
+                </ol>
+	</div>
+	</div>
+              <div class="last">
+          <img id="a"  src="43.jpg">
+        <div class="ty">
+<center>
+<p1 style="font-size:20px;font-family:Bradley Hand ITC;font-weight:bold;">
+     Atulya Opening Hours:
+       <br> <br> 
+    Dinner: Everyday from 5:00 PM to 10:30 PM
+       <br> <br>
+    Last Seating/Takeaway/Home Delivery: 9:15PM,
+       <br> <br>
+    Door closes at 10:30-45 PM
+       <br> <br>
+    Lunch: Monday to Friday 11:30 AM – 1:30 PM
+       <br> <br>
+    Email: info@atulyaindianrestaurant.com
+       <br> <br> 
+&nbsp&nbsp&nbsp<a href="https://twitter.com/?lang=en-in"><img id="g" src="twitter.png" width="45px" height="45px"></a>&nbsp&nbsp
+<a href="https://www.facebook.com/"><img id="g" src="facebook.jfif" width="45px" height="45px"></a>&nbsp&nbsp
+<a href="https://www.instagram.com/?hl=en"><img id="g" src="insta.jfif" width="45px" height="45px"></a>&nbsp&nbsp
+      <br> <br>
+    Atulya Restaurant, 1128 Commercial Place, Connought Place,
+       <br> <br>
+    New Delhi,111001
+     <br> <br> 
+    Contact Us: 121-4567893, +91-7894561378
+</p1>
+</center>
+</font>
+</body>
+</html>

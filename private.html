@@ -1,0 +1,285 @@
+<html>
+  <head>
+    <style>
+                ul 
+                {
+                   list-style-type: none;
+                   margin: 0;
+                   padding: 0;
+                   overflow: overflow;
+                   background-color: #333;
+                    opacity:.8;
+                   position: fixed;
+                   top: 0;
+                   width: 99%;
+                   z-index: 3;
+                 }
+
+                li
+                {
+                  float:left;
+                }
+
+                li a 
+                {
+                  display: block;
+                  color: white;
+                  text-align: center;
+                  padding: 25px 69px;
+                  text-decoration: none;
+                  font-size:20px;
+                }
+
+                li a.private
+                {
+                  display: block;
+                  margin-left: 24px;
+                  margin-right: 10px;
+                  color: white;
+                  text-align: center;
+                  padding: 25px 73px;
+                  text-decoration: none;
+                }
+
+               li a:hover
+               {
+                 background-color: #111;
+               }  
+
+              li a.gift:hover
+               {
+                 background-color: #111;		
+               } 
+
+             .dropdown-content 
+              {
+                display: none;
+                position: absolute;
+                background-color: #333;
+                box-shadow: 0px 8px 16px;
+                z-index: 5;
+                width: 190px;
+                height: 95px;
+                overflow: auto;
+                margin-left:0px;
+              }
+
+            .dropdown-content a 
+              {
+                color: black;
+                padding: 12px 10px;
+                text-decoration: none;
+                display: block;
+                color: white;
+               }
+
+           .dropdown-content a:hover 
+               {
+                  background-color: #111;
+                }
+
+            .dropdown:hover .dropdown-content
+               {
+                 display:block;
+               }
+             body, div, form, input, select, textarea, p 
+              { 
+                padding: 0;
+                margin: 0;
+                outline: none;
+                font-family: Roboto, Arial, sans-serif;
+                font-size: 14px;
+                color: #666;
+                line-height: 22px;
+              }
+            h1 
+             {
+               position: absolute;
+               margin: 0;
+               line-height: 42px;
+               font-size: 42px;
+               color: #fff;
+               z-index: 2;
+             }
+           .testbox
+             {
+               display: flex;
+               justify-content: center;
+               align-items: center;
+               height: inherit;
+               padding: 20px;
+             }
+           form
+            {
+              margin-top:80px;
+              width: 100%;
+              padding: 20px;
+              border-radius: 6px;
+              background: #d4d4d4;
+              box-shadow: 0 0 25px 0 #d6e0f5; 
+            }
+           .banner 
+           {
+             position: relative;
+             height: 300px;
+             background-image: url("1.jpg");  
+             background-size: cover;
+             display: flex;
+             justify-content: center;
+             align-items: center;
+             text-align: center;
+           }
+           .banner::after
+          {
+            content: "";
+            background-color: rgba(0, 0, 0, 0.3); 
+            position: absolute;
+            width: 100%;
+            height: 100%;
+           }
+           input, select, textarea
+           {
+             margin-bottom: 10px;
+             border: 1px solid #ccc;
+             border-radius: 3px;
+           }
+          input 
+           {
+             width:100%;
+             padding: 5px;
+           }
+          input[type="date"]
+           {
+             padding: 4px 5px;
+           }
+          select 
+          {
+            width: 100%;
+            padding: 7px 0;
+            background: transparent;
+           }
+          textarea
+          {
+           width:100%;
+           padding: 5px;
+          }
+          .item input:hover, .item select:hover, .item textarea:hover
+          {
+            border: 1px solid transparent;
+            box-shadow: 0 0 6px 0 #d6e0f5;
+            color: #d6e0f5;
+           }
+          .item 
+           {
+            position: relative;
+            margin: 10px 0;
+           }
+          input[type="date"]::-webkit-inner-spin-button 
+           {
+            display: none;
+           }
+         .item i, input[type="date"]::-webkit-calendar-picker-indicator
+           {
+             position: absolute;
+             font-size: 20px;
+             color: #a9a9a9;
+           }
+           .item i 
+           {
+             right: 2%;
+             top: 28px;
+             z-index: 1;
+           }
+          [type="date"]::-webkit-calendar-picker-indicator
+           {
+             right: 1%;
+             z-index: 2;
+             opacity: 0;
+             cursor: pointer;
+           }
+         .btn-block
+           {
+             margin-top: 10px;
+             text-align: center;
+           }
+          button 
+           {
+             width: 150px;
+             padding: 10px;
+             border: none;
+             border-radius: 5px; 
+             background: #0087cc;
+             font-size: 16px;
+             color: #fff;
+             cursor: pointer;
+             }
+           button:hover 
+            {
+           background: #6eb8dd;
+            }
+          .name-item, .city-item
+            {
+            display: flex;
+            justify-content: space-between;
+          }
+         </style>
+  </head>
+         <body >
+                    <ul>
+                          <li><a href="atulya.html">Home</a></li>
+                          <li class="dropdown">
+	       <a class="gift" href="#">Menu</a>
+	       <div class = "dropdown-content">
+	       <a href="dinein.html">Dine In</a>
+	       <a href="behome.html">Be Home</a>
+                         </li>
+                         <li><a href="gallery.html">Gallery</a></li>
+                         <li><a href="order.html">Order Now</a></li>
+                         <li><a href="gift.html">Gift Cards</a></li>
+                         <li><a href="contact.html">Contacts</a></li>
+                         <li><a href="about.html">About Us</a></li>
+                  </ul>
+                  <div class="testbox">
+                               <form action="thank.html">
+                                          <div class="banner">
+                                                  <h1>Restaurant Reservation Form</h1>
+                                          </div>
+                                               <div class="item">
+                                                           <p>Name</p>
+                                              <div class="name-item">
+                                                          <input type="text" name="name" placeholder="First" >
+                                                          <input type="text" name="name" placeholder="Last" >
+                                             </div>
+                                             </div>
+                                             <div class="item">
+                                                           <p>Email</p>
+                                                           <input type="email" name="email"/>
+                                             </div>
+                                             <div class="item">
+                                                           <p>Phone</p>
+                                                           <input type="text" name="phone" placeholder="### ### ####"/>
+                                             </div>
+                                             <div class="item">
+                                                          <p>Reservation Date</p>
+                                                          <input type="date" name="bdate" required/>
+                                                          <i class="calendar"></i>
+                                             </div>
+                                             <div class="item">
+                                                          <p>Reservation Time</p>
+                                                          <input type="time" name="btime" required/>
+                                            </div>
+                                            <div class="item">
+                                                          <p>How many people will you be with?</p>
+                                                          <input type="text" name="language"/>
+                                           </div>
+                                           <div class="item">
+                                                          <p>Additional notes</p>
+                                                          <textarea rows="3"></textarea>
+                                          </div>
+                                         <div class="btn-block">
+                                         <button type="submit">Send</button>
+                                         </div>
+                          </form>
+                  </div>
+       </body>
+</html>
